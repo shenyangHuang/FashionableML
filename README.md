@@ -9,10 +9,13 @@ https://docs.google.com/presentation/d/1d9oEmbm5fWb1WReUxb7EsKWXHjWrcmHX5LGxRCNc
 
 Instruction:
 1. Controllable noise
+
 run 20ReluNN.py
 
 2. Memorization
 
 3. CLR
+
 open jupyter notebook
+
 run CLRFashionMNIST.ipynb
