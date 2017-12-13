@@ -1,8 +1,11 @@
 """
-20 layer ReLU network run on the FashionMNIST and MNIST datasets.
+20 layer MLP ReLU network run on the FashionMNIST and MNIST datasets.
 Output: file "accuracies.txt" describing the ratios and resulting training and 
 test accuracies given by multiple optimizers including gradient descent. 
-Used to replicate Figure 1.b in section 4.1 of the paper.
+Used to replicate Figure 1.b in Section 4.1 of the original paper.
+
+Python version: 3.6.2
+Tensorflow version: 1.4.0
 
 Code based on: https://medium.com/tensorist/classifying-fashion-articles-using-tensorflow-fashion-mnist-f22e8a04728a
 Code by: Shenyang Huang & Kaylee Kutschera
