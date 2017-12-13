@@ -405,7 +405,9 @@ def model(train, test, ramseed,learning_rate, num_epochs, minibatch_size, optim)
 def make_hparam_string(learning_rate, batch_size,epoch, optimizer):
     return "learning_rate:%.00E,batch_size:%d, epoch:%d, optimizer:%s" % (learning_rate, batch_size,epoch, optimizer)
 
-optimizers = ["GradientDescent", "Adadelta", "Adagrad", "Adam", "ProximalGradientDescent", "ProximalAdagrad", "RMSProp"]
+optimizers = ["GradientDescent"]
+# To run on multiple different optimizers, replace the above line with the following line.
+#optimizers = ["GradientDescent", "Adadelta", "Adagrad", "Adam", "ProximalGradientDescent", "ProximalAdagrad", "RMSProp"]
 
 for optimizer in optimizers:    
     learning_rates = [0.05,0.05,0.025,0.04,0.02,0.02,0.01,0.01,0.02,0.005,0.03,0.02,0.06, 0.015,0.011,0.0075]
