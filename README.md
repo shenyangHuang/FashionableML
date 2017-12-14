@@ -38,6 +38,6 @@ import tensorflow as tf
 
 import random
 
-from `__future__` import print_function
+from \__future\__ import print_function
 
 import copy
