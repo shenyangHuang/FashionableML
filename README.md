@@ -21,7 +21,7 @@ run tf_mlp.py
 The parameters can be changed on lines 42, 55, and 57.
 
 3. CLR
-
+Using python 3.5
 open jupyter notebook
 
 run CLRFashionMNIST.ipynb
