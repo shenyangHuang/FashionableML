@@ -15,6 +15,7 @@ run 20ReluNN.py
 2. Memorization
 
 run tf_mlp.py
+
 The parameters can be changed on lines 42, 55, and 57.
 
 3. CLR
