@@ -25,7 +25,11 @@ open jupyter notebook
 run CLRFashionMNIST.ipynb
 
 Dependencies:
+
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 import tensorflow as tf
