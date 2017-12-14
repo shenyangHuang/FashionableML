@@ -15,9 +15,7 @@ run 20ReluNN.py
 2. Memorization
 
 run tf_mlp.py
-
-To check different subsets, the subsets have to be manually changed on lines 41-45.
-To check different ratios, the ratios have to be manually changed on lines 52 and 54.
+The parameters can be changed on lines 42, 55, and 57.
 
 3. CLR
 
