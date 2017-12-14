@@ -14,6 +14,8 @@ run 20ReluNN.py
 
 2. Memorization
 
+Using python3.5:
+
 run tf_mlp.py
 
 The parameters can be changed on lines 42, 55, and 57.
@@ -33,3 +35,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import tensorflow as tf
+
+import random
+
+from __future__ import print_function
+
+import copy
