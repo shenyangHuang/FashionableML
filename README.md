@@ -3,43 +3,42 @@ Deposit for reproducibility study of the paper "Three Factors Influencing Minima
 
 Reproducibility study completed by Shenyang Huang, Kaylee Kutschera, and Sacha Perry-Fagant.
 
-Project Presentation:
+## Project Presentation:
 
 https://docs.google.com/presentation/d/1d9oEmbm5fWb1WReUxb7EsKWXHjWrcmHX5LGxRCNc7E8/edit?usp=sharing
 
-Instruction:
-1. Controllable noise
+## Instructions to Run:
+### 1. Controllable noise
+* run 20ReluNN.py
+* dataset can be changed on lines 20 and 22
 
-run 20ReluNN.py
 
-2. Memorization
+### 2. Memorization
+* run tf_mlp.py
+* parameters can be changed on lines 42, 55, and 57
 
-Using python3.5:
+### 3. CLR
+* open jupyter notebook
+* run CLRFashionMNIST.ipynb
 
-run tf_mlp.py
 
-The parameters can be changed on lines 42, 55, and 57.
+## Dependencies:
 
-3. CLR
+### 1. Controllable noise
+* Python 3.6.2
+* Tensorflow 1.4.0
 
-Using python 3.5
 
-open jupyter notebook
+### 2. Memorization
+* Python 3.5
+* Tensorflow
+* NumPy 
+* Matplotlib
+* Seaborn
 
-run CLRFashionMNIST.ipynb
+### 3. CLR
+* Python 3.5
+* Tensorflow
+* NumPy 
+* Matplotlib
 
-Dependencies:
-
-import numpy as np
-
-import matplotlib.pyplot as plt
-
-import seaborn as sns
-
-import tensorflow as tf
-
-import random
-
-from \_\_future\_\_ import print_function
-
-import copy
