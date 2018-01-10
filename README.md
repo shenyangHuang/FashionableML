@@ -7,6 +7,9 @@ Reproducibility study completed by Shenyang Huang, Kaylee Kutschera, and Sacha P
 
 https://docs.google.com/presentation/d/1d9oEmbm5fWb1WReUxb7EsKWXHjWrcmHX5LGxRCNc7E8/edit?usp=sharing
 
+## Final Report:
+https://drive.google.com/file/d/1kQu_oYgLS4xqPrshPlZ4rLI1kqDLvikJ/view?usp=sharing
+
 ## Instructions to Run:
 ### 1. Controllable noise
 * run 20ReluNN.py
